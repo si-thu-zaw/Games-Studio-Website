@@ -1,0 +1,129 @@
+<!doctype HTML>
+<html lang=en>
+
+<head>
+  <title>ULC Games Website-Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Bootstrap and jquery scripts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Baumans" rel="stylesheet">
+
+  <!-- Media Quaries -->
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width: 768px)" href="styles/tablet.css" />
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width: 992px)" href="styles/desktop.css" />
+
+</head>
+
+<body>
+  <br>
+
+  <header role="banner">
+
+    <!-- Top Banner-->
+    <div class="row text-center headbanner">
+      <div class="col-sm-3">
+        <img style="max-height: 100px; max-width:auto" class="text-center img-responsive" src="assets/logo.png" alt="ULC Logo">
+      </div>
+      <div class="col-sm-9">
+        <h1>ULC Games</h1>
+        <p>We make worlds.. in pieces</p>
+      </div>
+    </div>
+
+  </header>
+
+  <nav role="navigation">
+
+    <a class="nav" style="margin: 4px 0px 0px 4px;" href="index.html">Home</a>
+    <a class="nav" href="gallery.html">Gallery</a>
+    <a class="nav" href="contact.html">Contact</a> <br>
+
+  </nav>
+
+  <article role="article">
+    <br>
+    <div id="googleMap" class="googlemap1"></div>
+
+    <script>
+      function myMap() {
+        var mapProp = {
+          center: new google.maps.LatLng(1.297047, 103.801084),
+          zoom: 16
+        };
+        var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+      }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCF6x5OujARNwxgYtJbOnKO1oNPzpM6P34&callback=myMap"></script>
+
+    <form action="#" method="post" class="contactform well">
+
+      <h1>Contact Us</h1>
+      <input class="contactformfield" name="Name" placeholder="Name" type="text"> <br>
+      <input class="contactformfield" name="Email" placeholder="Email Address" type="text"> <br>
+      <input class="contactformfield" name="Subject" placeholder="Subject" type="text"> <br>
+      <textarea class="contactformfield" name="Message" placeholder="Message" rows="10" cols="30"></textarea> <br>
+      <input class="contactformfield btn" type="submit" value="Submit"><br>
+
+
+    </form>
+    <br>
+    
+    <div style="clear:both; font-size:1px;"></div>
+    <br>
+
+  </article>
+  <footer role="contentinfo">
+
+  <!--Website Footer-->
+  <div class="btmftr">
+    <div class="container">
+      <h2>ULC Games</h2>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Find Out More</h3>
+          <hr>
+            <a href="https://www.youtube.com/"><i class="socialbutton fa fa-youtube-square"> </i>  
+			</a>&nbsp;
+            <a href="https://www.facebook.com/"> <i class="socialbutton fa fa-facebook-square"> </i>
+            </a> &nbsp;
+            <a href="https://www.twitter.com/"> <i class="socialbutton fa fa-twitter-square"> </i>
+            </a> &nbsp;
+            <a href="https://store.steampowered.com/"> <i class="socialbutton fa fa-steam-square"></i>
+            </a>
+        </div>
+        <div class="col-sm-4">
+          <h3>Contact Us</h3>
+          <hr>
+          <p><i class="fa fa-phone"></i> 6247 9111</p>
+          <p>501 Stirling Rd</p>
+          <p>Singapore</p>
+          <p>148951</p>
+
+        </div>
+        <div class="col-sm-4">
+          <h3>Our Games</h3>
+          <hr>
+          <p> <a href=#>Game:Save The Princess!</a> </p>
+          <p> <a href=#>ULC:The Princess Pack</a> </p>
+          <p> <a href=#>ULC:Sword Pack</a> </p>
+          <p> <a href=#>ULC:Horse Pack</a> </p>
+          <p> <a href=#>ULC:Loot Box Keys x10</a> </p>
+          <p> <a href=#>ULC:The True Ending!</a> </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </footer>
+</body>
+
+</html>
