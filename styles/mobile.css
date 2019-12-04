@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: Baumans;
+}
+    
+img {
+  max-width: 100%;
+  height: auto;
+}
+    
+.img-responsive {
+  margin: 0 auto;
+}
+
+.headbanner {
+  background-color: #0e264c;
+  color: white;
+  padding: 10px;
+}
+
+.socialbutton {
+  font-size: 48px;
+  color: white;
+}
+
+.nav {
+  background-color: #172742;
+  transition-duration: 0.5s;
+  border: 2px solid white;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  width: 100%; 
+}
+
+.nav:hover {
+  background-color: white;
+  transition-duration: 0.5s;
+  border: 2px solid #172742;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  width: 100%; 
+}
+
+.btn {
+  transition-duration: 0.5s;
+}
+
+.btn:hover {
+  background-color: #3b5277;
+  color:white;
+  transition-duration: 0.5s;
+}
+
+.googlemap1 {
+  width: 100%;
+  padding: 5px;
+  padding-top: 60%;
+}
+
+.contactform {
+  width: 100%;
+  margin: 4px 6px 6px 4px;
+  
+}
+
+.btmftr {
+  background-color: #282b30;
+  color:white;
+  padding: 10px;
+}
+
+.contactformfield {
+  width: 75%;
+  display: block; 
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
