@@ -5,7 +5,7 @@ This is a website completed for a coursework project in Web and Mobile Developme
 
 The project is also included as a PDF file, where I documented the process of design and development of the website from wireframe designs to user stories.
 
-The site can be accessed for viewing here: www.
+The site can be accessed for viewing here: https://si-thu-zaw.github.io/Games-Studio-Website/index.html
 
 ## Technologies Used
 
